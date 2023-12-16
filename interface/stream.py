@@ -13,7 +13,7 @@ label_encoders = joblib.load("../jupyter/encoders.joblib")
 def show_predict_page():
     st.title("Time Management Efficiency Testing")
 
-    st.write("""### We need some info to predict you efficiency level""")
+    st.write("""### We need some info to predict your efficiency level""")
 
     age = (
         '<18',
